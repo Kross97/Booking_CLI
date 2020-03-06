@@ -1,0 +1,13 @@
+D:\Обучение програмированию\Домашка\C-Home-Work\Booking.Manager\bin\Debug\netstandard2.0\Booking.Manager.deps.json
+D:\Обучение програмированию\Домашка\C-Home-Work\Booking.Manager\bin\Debug\netstandard2.0\Booking.Manager.dll
+D:\Обучение програмированию\Домашка\C-Home-Work\Booking.Manager\bin\Debug\netstandard2.0\Booking.Manager.pdb
+D:\Обучение програмированию\Домашка\C-Home-Work\Booking.Manager\bin\Debug\netstandard2.0\Booking.Repository.dll
+D:\Обучение програмированию\Домашка\C-Home-Work\Booking.Manager\bin\Debug\netstandard2.0\Booking.Repository.pdb
+D:\Обучение програмированию\Домашка\C-Home-Work\Booking.Manager\obj\Debug\netstandard2.0\Booking.Manager.csprojAssemblyReference.cache
+D:\Обучение програмированию\Домашка\C-Home-Work\Booking.Manager\obj\Debug\netstandard2.0\Booking.Manager.AssemblyInfoInputs.cache
+D:\Обучение програмированию\Домашка\C-Home-Work\Booking.Manager\obj\Debug\netstandard2.0\Booking.Manager.AssemblyInfo.cs
+D:\Обучение програмированию\Домашка\C-Home-Work\Booking.Manager\obj\Debug\netstandard2.0\Booking.Manager.csproj.CopyComplete
+D:\Обучение програмированию\Домашка\C-Home-Work\Booking.Manager\obj\Debug\netstandard2.0\Booking.Manager.dll
+D:\Обучение програмированию\Домашка\C-Home-Work\Booking.Manager\obj\Debug\netstandard2.0\Booking.Manager.pdb
+D:\Обучение програмированию\Домашка\C-Home-Work\Booking.Manager\bin\Debug\netstandard2.0\Domain.dll
+D:\Обучение програмированию\Домашка\C-Home-Work\Booking.Manager\bin\Debug\netstandard2.0\Domain.pdb

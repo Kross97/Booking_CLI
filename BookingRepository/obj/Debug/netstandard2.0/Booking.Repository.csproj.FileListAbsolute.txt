@@ -1,0 +1,11 @@
+D:\Обучение програмированию\Домашка\C-Home-Work\BookingRepository\bin\Debug\netstandard2.0\Booking.Repository.deps.json
+D:\Обучение програмированию\Домашка\C-Home-Work\BookingRepository\bin\Debug\netstandard2.0\Booking.Repository.dll
+D:\Обучение програмированию\Домашка\C-Home-Work\BookingRepository\bin\Debug\netstandard2.0\Booking.Repository.pdb
+D:\Обучение програмированию\Домашка\C-Home-Work\BookingRepository\obj\Debug\netstandard2.0\Booking.Repository.csprojAssemblyReference.cache
+D:\Обучение програмированию\Домашка\C-Home-Work\BookingRepository\obj\Debug\netstandard2.0\Booking.Repository.AssemblyInfoInputs.cache
+D:\Обучение програмированию\Домашка\C-Home-Work\BookingRepository\obj\Debug\netstandard2.0\Booking.Repository.AssemblyInfo.cs
+D:\Обучение програмированию\Домашка\C-Home-Work\BookingRepository\obj\Debug\netstandard2.0\Booking.Repository.csproj.CopyComplete
+D:\Обучение програмированию\Домашка\C-Home-Work\BookingRepository\obj\Debug\netstandard2.0\Booking.Repository.dll
+D:\Обучение програмированию\Домашка\C-Home-Work\BookingRepository\obj\Debug\netstandard2.0\Booking.Repository.pdb
+D:\Обучение програмированию\Домашка\C-Home-Work\BookingRepository\bin\Debug\netstandard2.0\Domain.dll
+D:\Обучение програмированию\Домашка\C-Home-Work\BookingRepository\bin\Debug\netstandard2.0\Domain.pdb

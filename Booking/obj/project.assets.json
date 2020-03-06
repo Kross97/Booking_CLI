@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Booking.Manager/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Booking.Repository": "1.0.0",
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Booking.Manager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Booking.Manager.dll": {}
+        }
+      },
+      "Booking.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Booking.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Booking.Repository.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Booking.Manager/1.0.0": {
+      "type": "project",
+      "path": "../Booking.Manager/Booking.Manager.csproj",
+      "msbuildProject": "../Booking.Manager/Booking.Manager.csproj"
+    },
+    "Booking.Repository/1.0.0": {
+      "type": "project",
+      "path": "../BookingRepository/Booking.Repository.csproj",
+      "msbuildProject": "../BookingRepository/Booking.Repository.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Booking.Manager >= 1.0.0",
+      "Booking.Repository >= 1.0.0",
+      "Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\077764842\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Обучение програмированию\\Домашка\\C-Work\\Booking\\Booking.csproj",
+      "projectName": "Booking",
+      "projectPath": "D:\\Обучение програмированию\\Домашка\\C-Work\\Booking\\Booking.csproj",
+      "packagesPath": "C:\\Users\\077764842\\.nuget\\packages\\",
+      "outputPath": "D:\\Обучение програмированию\\Домашка\\C-Work\\Booking\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\077764842\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "D:\\Обучение програмированию\\Домашка\\C-Work\\Booking.Manager\\Booking.Manager.csproj": {
+              "projectPath": "D:\\Обучение програмированию\\Домашка\\C-Work\\Booking.Manager\\Booking.Manager.csproj"
+            },
+            "D:\\Обучение програмированию\\Домашка\\C-Work\\BookingRepository\\Booking.Repository.csproj": {
+              "projectPath": "D:\\Обучение програмированию\\Домашка\\C-Work\\BookingRepository\\Booking.Repository.csproj"
+            },
+            "D:\\Обучение програмированию\\Домашка\\C-Work\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Обучение програмированию\\Домашка\\C-Work\\Domain\\Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
