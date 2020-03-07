@@ -35,10 +35,16 @@ namespace Booking.Manager
         {
             if (!String.IsNullOrWhiteSpace(name) || !String.IsNullOrWhiteSpace(surname) || age != 0)
             {
-                Client newClient = new Client(name, surname, age);
-                repo.AddClient(newClient);
-                Thread newFlow = new Thread(GetClients);
-                newFlow.Start();
+                try
+                {
+                    Client newClient = new Client(name, surname, age);
+                    repo.AddClient(newClient);
+                    Thread newFlow = new Thread(GetClients);
+                    newFlow.Start();
+
+                } catch(Exception e) {
+                    Console.WriteLine(e.Message);
+                }
             } else
             {
                 Console.WriteLine("Не все данные переданны! Пользователь не создастся!");
@@ -55,6 +61,8 @@ namespace Booking.Manager
         public void RemoveClient(Guid id)
         {
             Client client = clients.Find(c => c.IdClient == id);
+            Console.WriteLine(client.SurName);
+            Console.WriteLine(client.Name);
             clients.Remove(client);
             repo.UpdateListClients(clients);
         }

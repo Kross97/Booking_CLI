@@ -22,6 +22,7 @@ namespace Domain
                 if (value < 18)
                 {
                     throw new Exception("Без родителей вам нельзя бронировать отель!");
+                   
                 }
                 else
                 {

@@ -34,7 +34,7 @@ namespace Booking.Repository
         public void UpdatingListHotels(List<Hotel> hotels)
         {
             mutexRepo.WaitOne();
-            using (FileStream fs = new FileStream(pathHotels, FileMode.OpenOrCreate))
+            using (FileStream fs = new FileStream(pathHotels, FileMode.Create))
             {
                 foreach(Hotel h in hotels)
                 {

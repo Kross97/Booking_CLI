@@ -6,3 +6,11 @@ D:\Обучение програмированию\Домашка\C-Home-Work\Do
 D:\Обучение програмированию\Домашка\C-Home-Work\Domain\obj\Debug\netstandard2.0\Domain.dll
 D:\Обучение програмированию\Домашка\C-Home-Work\Domain\obj\Debug\netstandard2.0\Domain.pdb
 D:\Обучение програмированию\Домашка\C-Home-Work\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+D:\Обучение програмированию\Домашка\C-Work\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+D:\Обучение програмированию\Домашка\C-Work\Domain\bin\Debug\netstandard2.0\Domain.dll
+D:\Обучение програмированию\Домашка\C-Work\Domain\bin\Debug\netstandard2.0\Domain.pdb
+D:\Обучение програмированию\Домашка\C-Work\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+D:\Обучение програмированию\Домашка\C-Work\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+D:\Обучение програмированию\Домашка\C-Work\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+D:\Обучение програмированию\Домашка\C-Work\Domain\obj\Debug\netstandard2.0\Domain.dll
+D:\Обучение програмированию\Домашка\C-Work\Domain\obj\Debug\netstandard2.0\Domain.pdb

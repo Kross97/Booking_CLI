@@ -58,13 +58,14 @@ namespace Booking.Repository
         public void UpdateListClients(List<Client> clients)
         {
             mutexClient.WaitOne();
-            using(FileStream fs = new FileStream(pathClient, FileMode.OpenOrCreate))
+            using(FileStream fs = new FileStream(pathClient, FileMode.Create))
             {
                 foreach(Client c in clients)
                 {
                     formatter.Serialize(fs, c);
                 }
             }
+            mutexClient.ReleaseMutex();
         }
 
         public void CreateClientsLog()
