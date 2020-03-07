@@ -16,7 +16,7 @@ namespace Booking.Repository
         private Mutex mutexClient = new Mutex();
         public ClientRepository()
         {
-            if (Directory.Exists(@"D:\DataBooking"))
+            if (!Directory.Exists(@"D:\DataBooking"))
             {
                 Directory.CreateDirectory(@"D:\DataBooking");
             }
