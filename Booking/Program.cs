@@ -66,14 +66,21 @@ namespace Booking
                 if (control == "3")
                 {
                     hotelManager = new HotelManager();
-                    Console.Write("Введите название: ");
-                    string name = Console.ReadLine();
-                    Console.Write("Введите рейтинг: ");
-                    string rating = Console.ReadLine();
-                    Console.Write("Введите страну: ");
-                    string country = Console.ReadLine();
-                    hotelManager.AddHotel(name, Double.Parse(rating), country);
-                    hotelManager.CreateHotelsLog();
+                    try
+                    {
+                        Console.Write("Введите название: ");
+                        string name = Console.ReadLine();
+                        Console.Write("Введите рейтинг: ");
+                        string rating = Console.ReadLine();
+                        Console.Write("Введите страну: ");
+                        string country = Console.ReadLine();
+                        hotelManager.AddHotel(name, Double.Parse(rating), country);
+                        hotelManager.CreateHotelsLog();
+                    } catch
+                    {
+                        Console.WriteLine("Некоректные данные. Повторите попытку");
+                    }
+                    
                 }
 
                 if (control == "4")
